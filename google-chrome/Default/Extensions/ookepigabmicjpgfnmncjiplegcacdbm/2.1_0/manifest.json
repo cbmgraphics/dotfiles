@@ -1,0 +1,40 @@
+{
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1fILT31LUf/IgJq/BminbdxEy00pOviMJ6WyOywigqwxHJGz9TEReqwkaL3Q6xFQLc+Je0EI+e0P7UmxvLxduNZN7JC5eI/o5bym5fmSDiaCpNJCAJcSBww16W5ai130WVR+oXw+Uu0XMw48zZux/vJfRNL/XTIqlBtNnTAVfz2lQP6A7uCBib5cpHEgUvaoNcP/aT1mnSnYo86KpPTcnRjaVZOrp+Akc3D5sL9wrrwSMztNZ4TJh/2j/tGXke9cHX44jkALNmFKeTKGkVwQDVGZztCZHspbyfvk2fiN3Pd0V11zWBSQI+k+EgTx7CB290aM96+Cp5dW/YbHQb1COwIDAQAB",
+   "manifest_version": 2,
+   "name": "Material Simple Dark Grey",
+   "theme": {
+      "colors": {
+         "background_tab": [ 100, 100, 100 ],
+         "bookmark_text": [ 255, 255, 255 ],
+         "button_background": [ 34, 34, 34 ],
+         "buttons": [ 34, 34, 34 ],
+         "frame": [ 50, 50, 50 ],
+         "frame_inactive": [ 0, 0, 0 ],
+         "ntp_background": [ 39, 40, 34 ],
+         "ntp_header": [ 255, 255, 255 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_section": [ 255, 255, 255 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "tab_background_text": [ 180, 180, 180 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 24, 25, 21 ]
+      },
+      "images": {
+         "theme_frame": "theme_frame_dk.png",
+         "theme_frame_inactive": "theme_frame_inactive_dk.png",
+         "theme_tab_background": "theme_tab_background_dk.png",
+         "theme_tab_background_inactive": "theme_tab_background_inactive_dk.png",
+         "theme_toolbar": "theme_toolbar_dk.png"
+      },
+      "tints": {
+         "buttons": [ 0.33, 0.5, 0.47 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1"
+}

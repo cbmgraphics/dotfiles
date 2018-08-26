@@ -1,0 +1,6 @@
+2018/08/23-07:03:52.593 32249 Reusing MANIFEST /home/tryptophan/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/08/23-07:03:52.593 32249 Recovering log #7
+2018/08/23-07:03:52.595 32249 Reusing old log /home/tryptophan/.config/chromium/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000007.log 
+2018/08/23-07:03:57.504 7422 Level-0 table #11: started
+2018/08/23-07:03:57.654 7422 Level-0 table #11: 758070 bytes OK
+2018/08/23-07:03:57.852 7422 Delete type=0 #7

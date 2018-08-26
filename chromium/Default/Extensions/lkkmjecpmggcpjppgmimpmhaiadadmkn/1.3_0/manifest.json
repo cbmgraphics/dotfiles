@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "container": "tab",
+         "web_url": "http://www.habbo.com/?partner=chrme"
+      },
+      "urls": [ "https://www.habbo.com/" ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "128_icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCT1qL174wowY2xdYnzB0gE3X9SfLEXFHpu/9v3SkHvbX9UtHHAmQZwOn7IebfYLQDEfCGUQUD5El89l7oNUmWAt800fjXWMXunIlY8svO80VOwf5lyMEfRf4A0NHtJhcbYB0HbjYNnrLCPt2dfUz9oqIuIs8Fx4nmHr0usfwIzUQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3"
+}

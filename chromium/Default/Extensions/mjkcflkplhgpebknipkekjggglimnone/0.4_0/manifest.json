@@ -1,0 +1,23 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "main.htm"
+      }
+   },
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescr__",
+   "icons": {
+      "128": "img/logo128.png",
+      "16": "img/logo128.png",
+      "32": "img/logo128.png",
+      "64": "img/logo128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDRrDW3ykmVCRn0jxIjGjqqRU92FBGPkC/WemFAJkvAJ6XnW75ixcJaKpa0dGMdgS2Mt041l+WZWQ6tdpyNW38ju1XtJ/ys+ZwPWMkH9Gmr/0NtzxOPTq1B8YM90AXjbc00cR0ZeoDp0jIHCiE2bhz17szeDQdizQYMwTZJn6BiXQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "offline_enabled": true,
+   "permissions": [ "bookmarks", "browsingData", "contentSettings", "cookies", "management", "privacy" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.4"
+}

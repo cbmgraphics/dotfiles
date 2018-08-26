@@ -1,0 +1,228 @@
+a[data-feature]
+{
+  cursor: pointer;
+  color: #900B0B;
+  text-decoration: underline;
+}
+
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  background: -webkit-linear-gradient(#ececec 0px, white 100px);
+  background: linear-gradient(#ececec 0px white 100px);
+  background-repeat: no-repeat;
+}
+
+header img
+{
+  width: 64px;
+  height: 64px;
+}
+
+#title-text
+{
+  cursor: default;
+  display: inline-block;
+  position: relative;
+  top: -12px;
+  font-size: 20px;
+  text-align: left;
+  line-height: 24px;
+}
+
+h1
+{
+  margin: 0px;
+  font-size: 30px;
+}
+
+h1 > .no-style
+{
+  font-weight: normal;
+}
+
+article
+{
+  display: inline-block;
+  max-width: 825px;
+  margin: 20px 10px 100px 10px;
+  text-align: left;
+}
+
+section
+{
+  cursor: default;
+  display: inline-block;
+  position: relative;
+  width: 160px;
+  height: 180px;
+  margin: 2px 0px;
+  overflow: hidden;
+}
+
+section .title, section .description
+{
+  position: absolute;
+  width: 140px;
+  height: 100%;
+  padding: 10px;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+}
+
+section .title
+{
+  top: 0px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  border-top: 1px solid #bdbdbd;
+  background: -webkit-linear-gradient(#ddd 0px, white 40px);
+  background: linear-gradient(#ddd 0px, white 40px);
+}
+
+section .title img
+{
+  display: inline-block;
+  max-width: 60%;
+  max-height: 60%;
+  margin-top: 15px;
+  border: 2px solid #8b0000;
+  border-radius: 20px;
+  background: linear-gradient(red 50%, white 115%);
+  background: -webkit-linear-gradient(red 50%, white 115%);
+}
+
+section.done .title img
+{
+  border-color: #333;
+  background: -webkit-linear-gradient(#555 50%, white 150%);
+  background: linear-gradient(#555 50%, white 150%);
+}
+
+section .title::before
+{
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+
+section.promoted:not(.done) .title::before
+{
+  content: "__MSG_label_popular__";
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 102px;
+  left: 75px;
+  padding: 3px 5px;
+  color: white;
+  border-radius: 5px;
+  background: red;
+  box-shadow: 0px 0px 10px red;
+}
+
+section.done .title::before
+{
+  content: "";
+  top: 100px;
+  left: 90px;
+  width: 48px;
+  height: 48px;
+  background-image: url(../img/tick.png);
+}
+
+section .description
+{
+  top: -140px;
+  height: 120px;
+  font-size: 12px;
+  background: -webkit-linear-gradient(white 0%, #ddd 100%);
+  background: linear-gradient(white 0%, #ddd 100%);
+}
+
+section .description button
+{
+  display: block;
+}
+
+section:hover .title
+{
+  top: 140px;
+}
+
+section:hover .description
+{
+  top: 0px;
+}
+
+section button
+{
+  cursor: pointer;
+  position: absolute;
+  bottom: 10px;
+  width: 140px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ccc;
+  border: none;
+  border-radius: 3px;
+  background-color: #ccc;
+}
+
+section button::after
+{
+  content: "__MSG_label_done__";
+  position: absolute;
+  left: 35%;
+  color: black;
+}
+
+section:not(.done) button::after
+{
+  content: "";
+}
+
+section:not(.done) button
+{
+  color: #fff;
+  background: #62c52b;
+  background: -webkit-linear-gradient(top, #95f85e, #4f9d22);
+  background: linear-gradient(top, #95f85e, #4f9d22);
+  box-shadow: 0 1px 0 0 #486c15, 0 2px 0 0 #517422;
+  text-shadow: 2px 2px 2px #327d14;
+}
+
+/*
+section button.again
+{
+  color: transparent;
+  text-shadow: none;
+}
+
+section button.again::after
+{
+  content: "clear again";
+  margin-left: -23px;
+  color: white;
+  text-shadow: 2px 2px 2px #327d14;
+}
+*/
+
+section:not(.done) button:active
+{
+  background: #4f9d22;
+  background: -webkit-linear-gradient(bottom, #62c52b, #4f9d22);
+  background: linear-gradient(bottom, #62c52b, #4f9d22);
+  box-shadow: none;
+  bottom: 7px;
+}
+
+section.done a
+{
+  cursor: default;
+  color: inherit;
+  text-decoration: none;
+}

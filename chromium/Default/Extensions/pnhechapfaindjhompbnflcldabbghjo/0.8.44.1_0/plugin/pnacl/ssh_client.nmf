@@ -1,0 +1,1 @@
+{"program": {"x86-32": {"url": "../../_platform_specific/x86-32/pnacl/ssh_client_nl_x86_32.nexe"}, "x86-64": {"url": "../../_platform_specific/x86-64/pnacl/ssh_client_nl_x86_64.nexe"}, "arm": {"url": "../../_platform_specific/arm/pnacl/ssh_client_nl_arm.nexe"}}}

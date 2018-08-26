@@ -1,0 +1,98 @@
+<head>
+	<style>
+		body{background-color:#eee;font-family:open sans;margin:0;padding:0;}
+		input{}
+		#container_form{position:absolute;left:50%;margin-left:-440px;width:800px;box-shadow:0px 0px 10px #ccc;background-color:rgba(255,255,255,.9);border:1px solid #ccc;padding:40px;margin-top:40px; }
+		.form{border:1px solid #ccc;height:35px;padding:10px;}
+		.btn-save{height:35px;font-family:open sans;border:1px solid #a0a0a0;color:#505050;background-color:#ffc500;width:100px;margin:30px 0 0 500px;}
+		#box_header{font-size:14pt;color:#777;margin-top:20px;}
+		#input-container{padding:30px;margin-top:20px;border-top:1px solid #ccc;}
+		input[name="account-type"]{margin-top:20px;}
+		label{background: #f3f3f3;padding:5px 0 10px 10px;margin:10px;display: block;border-radius: 5px;}
+		label.active{background:#D8ECD2;}
+		#url{font-size:20px;width:301px;}
+		#url_container{display:none;padding:30px;margin:10px; }
+		label.active #url_container{display:block;}
+
+
+
+.button {
+   border: 1px solid #0a3c59;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   padding: 14px 28px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   border-radius: 4px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: white;
+   font-size: 18px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #1e4158 0 1px 0;
+   background: #3e779d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
+   background: -webkit-linear-gradient(top, #65a9d7, #3e779d);
+   background: -moz-linear-gradient(top, #65a9d7, #3e779d);
+   background: -ms-linear-gradient(top, #65a9d7, #3e779d);
+   background: -o-linear-gradient(top, #65a9d7, #3e779d);
+   background-image: -ms-linear-gradient(top, #65a9d7 0%, #3e779d 100%);
+   color: #fff;
+   }
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 2px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#3e779d));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+   }
+
+	</style>
+</head>
+<body>
+
+	<form id='container_form'>
+	<div>
+		<img src='TypingClubIcon.png' alt='TypingClub' style='width:70px;height:70px;' />
+	</div>
+		<div id='box_header'>
+			Here you can configure where this computer's TypingClub Chrome launch icon should take you. 
+		</div>
+		
+		<div id='input-container'>
+			<label>
+				<input type='radio' name='account-type' id="individual-opt" value='Individual Edition'> Individual Edition<br /> 
+			</label>
+			<label>
+				<input type='radio' name='account-type' id='school-opt' value='School Edition'> School Edition 
+				<div id="url_container">
+					Please enter the portal URL for your school account before proceeding:<br />
+					<div style='font-size:1.4em;margin:12px;color:#444;'> http://<input class='form' type="text" id="url"></input>.typingclub.com</br></div>
+				</div>
+			</label>
+
+			<div style='text-align:right;margin-top:30px;'>
+				<a href='#' id='save' class='button'>Save</a>
+			</div>
+		</div>
+	</form>
+	<script src="jquery.js"></script>
+	<script src="options.js"></script>
+</body>

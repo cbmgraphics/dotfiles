@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "main.html"
+      }
+   },
+   "icons": {
+      "128": "128.png",
+      "16": "16.png",
+      "24": "24.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNGYhNYmbf1ydu7Mv9/43C31DmtUDcYZVVAWHfsvp9Uv+Oo0l8mcz5twNXAze0FQbfVSHm+4U7NgUAyFH+fJPeBRAt1XgThGrozWOu4RI9q+Ol1a+Rjxij5+d6qQ2Xfzh3KV90ud817s48i6lM7ufyNeeJx2Q6S2GQgloEA60eowIDAQAB",
+   "manifest_version": 2,
+   "name": "TypingClub",
+   "options_page": "options.html",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "6.0"
+}
